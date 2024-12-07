@@ -18,6 +18,12 @@ const data = [
         img: "/assets/work/api-django-ninja.png",
         title: "API Auth Django Ninja",
     },
+    {
+        href: "https://architecture-hexagonal-git-main-pedroguilhermesilvs-projects.vercel.app/swagger/",
+        category: "backend",
+        img: "/assets/work/api-hex.png",
+        title: "API Game Rental",
+    },
     
 
 ]
@@ -47,7 +53,7 @@ export function Work() {
                 <Tabs defaultValue="all" className="w-full flex flex-col">
 
                     <div className="flex flex-col xl:flex-row items-center xl:items-start xl:justify-between mv-[30px]">
-                        <AnimatedText text="My Latest Work"
+                        <AnimatedText text="My Latest Prroject"
                             textStyles="h2 mb-[30px] xl:mb-0"
                         />
                         {/* render the triggers */}
