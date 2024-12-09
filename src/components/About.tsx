@@ -15,7 +15,7 @@ export function About() {
                             {/* shape */}
                             <div className=" rounded-tl-[8px] rounded-tr-[120px] w-full bg-[#e5f8f6] min-h-[400px] flex items-end justify-center">
                                 <Image
-                                    src="/assets/hero/dev.png"
+                                    src="/assets/hero/file.png"
                                     width={350}
                                     height={478}
                                     alt="dev" />
@@ -53,18 +53,17 @@ export function About() {
                     <div className="text-center xl:text-left w-full xl:w-[50%] mx-auto xl:mx-0 flex flex-col gap-6">
                         <div>
                             <AnimatedText text="My Name is Guilherme" textStyles="h2 mb-2" />
-                            <p className="text-lg"> Full Stack Developer & Data Analytics </p>
+                            <p className="text-lg"> Backend Developer </p>
                         </div>
                         <p className="max-w-[680px] mx-auto xl:mx-0 mb-2">
-                            I create visually stunning and functional websites using modern frontend
-                            technologies and manipulate diverse data to support your business.
+                        Designing scalable systems in Python, focusing on effective modeling, clean architecture, and continuous delivery.
                         </p>
                         {/* Infor items*/}
                         <div className="flex flex-col lg:flex-row gap-8 xl:gap-12 max-w-max mx-auto xl:mx-0 items-center whitespace-nowrap">
                             {/* item 1*/}
                             <div className="max-w-max">
                                 <div className="uppercase font-bold text-primary">Age</div>
-                                <p>22 Years</p>
+                                <p>23 Years</p>
                             </div>
                             {/* item 2*/}
                             <div className="max-w-max">

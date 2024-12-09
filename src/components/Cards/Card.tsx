@@ -15,10 +15,10 @@ type CardProps = {
 
 export function Card({ type, company, logoURL, position, duration, description, institution, name, qualification, icon }: CardProps) {
     return (
-        <div className=" w-full h-[380px] overflow-hidden flex items-center sticky top-12">
-            <div className="w-full h-[360px] border border-accent/80 bg-[#f4ffff] rounded-[8px]">
+        <div className=" w-full h-[470px] overflow-hidden flex items-center sticky top-12">
+            <div className="w-full h-[460px] border border-accent/80 bg-[#f4ffff] rounded-[8px]">
                 <div className="flex flex-col h-full">
-                    <div className="h-[80px] xl:h-[60px] bg-white flex flex-col md:flex-row justify-center 
+                    <div className="h-[90px] xl:h-[60px] bg-white flex flex-col md:flex-row justify-center 
                     md:justify-between items-center px-6  rounded-tl-[8px] rounded-tr-[8px]">
                         <div className="flex gap-2 ">
                             <Image src="assets/journey/shape.svg" width={16} height={16} alt="logo" />

@@ -28,7 +28,7 @@ export function Hero() {
                             className="ml-2 xl:ml-4"
                         />
                     </h1>
-                    <p className="lead max-w-[475px] mb-7"> Designing websites and automations with scraping and ETL to meet all your needs.
+                    <p className="lead max-w-[475px] mb-7"> Backend developer passionate about building efficient solutions with Python.
                     </p>
                     <ScrollLink to="contact" smooth>
                         <button className="btn btn-accent mb-8 ">Contact me</button>
@@ -39,7 +39,7 @@ export function Hero() {
                 {/* Image */}
                 <div className="hidden xl:flex w-[55vw] h-[800px] absolute bg-accent top-0 right-0">
                     <div className="absolute w-[558px] h-[642px] bottom-0 z-40 left-[6.5vw]" >
-                        <Image src="/assets/hero/dev.png" fill quality={100} priority
+                        <Image src="/assets/hero/dev-about.png" fill quality={100} priority
                             className="object-contain" alt="dev" />
                     </div>
                     {/* Image */}

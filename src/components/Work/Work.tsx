@@ -48,7 +48,7 @@ export function Work() {
     }
 
     return (
-        <section className="pt-24 min-h-[1000px]" id="work">
+        <section className="pt-24 min-h-[700px]" id="work">
             <div className="container mx-auto">
                 <Tabs defaultValue="all" className="w-full flex flex-col">
 
