@@ -15,8 +15,8 @@ type CardProps = {
 
 export function Card({ type, company, logoURL, position, duration, description, institution, name, qualification, icon }: CardProps) {
     return (
-        <div className=" w-full h-[470px] overflow-hidden flex items-center sticky top-12">
-            <div className="w-full h-[460px] border border-accent/80 bg-[#f4ffff] rounded-[8px]">
+        <div className=" w-full h-[520px] xl:h-[320px] overflow-hidden flex items-center sticky top-12 mb-10">
+            <div className="w-full h-[510px] xl:h-[320px] border border-accent/80 bg-[#f4ffff] rounded-[8px]">
                 <div className="flex flex-col h-full">
                     <div className="h-[90px] xl:h-[60px] bg-white flex flex-col md:flex-row justify-center 
                     md:justify-between items-center px-6  rounded-tl-[8px] rounded-tr-[8px]">
@@ -55,7 +55,7 @@ export function Card({ type, company, logoURL, position, duration, description, 
                                                     : null
                                     }
                                 </h3>
-                                <p className=" text-base max-w-[700px]"> {description}</p>
+                                <p className=" text-left text-base max-w-[700px] whitespace-pre-line"> {description}</p>
                             </div>
                         </div>
                     </div>

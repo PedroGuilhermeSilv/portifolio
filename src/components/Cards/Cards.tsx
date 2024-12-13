@@ -1,7 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { AnimatePresence, motion } from "framer-motion";
 import { DiScrum } from "react-icons/di";
-import { FaDocker, FaGithub, FaPython } from "react-icons/fa";
+import { FaDocker, FaPython } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiCelery, SiDjango, SiFastapi, SiMetabase, SiNextdotjs, SiSelenium, } from "react-icons/si";
 import { Card } from "./Card";
@@ -37,7 +37,7 @@ type JourneyItem = Experience | Education | Skill;
 const journey: JourneyItem[] = [
     {
         type: "experience",
-        company: "EGMA - LabGov",
+        company: "EGMA (School for training public servants)",
         logoURL: "/assets/journey/experience/labgov.svg",
         position: "IT intern",
         duration: "May 2021 - Nov 2021",
@@ -45,7 +45,7 @@ const journey: JourneyItem[] = [
     },
     {
         type: "experience",
-        company: "BPBL",
+        company: "BPBL (Library)",
         logoURL: "/assets/journey/experience/bpbl2.svg",
         position: "IT intern",
         duration: "Nov 2021 - Agost 2023",
@@ -53,11 +53,11 @@ const journey: JourneyItem[] = [
     },
     {
         type: "experience",
-        company: "EMSERH",
+        company: "EMSERH (Company and hospital services)",
         logoURL: "/assets/journey/experience/logo-emserh3.svg",
         position: "Junior Developer",
         duration: "Sep 2023 - Present",
-        description: "I work on projects, carrying out requirements gathering and analysis, estimating deadlines and dividing tasks. I work on backend and frontend development using Django and Django Rest Framework for a hiring request registration platform. I integrate Metabase with the company's internal systems to generate management metrics. I also automate the extraction of data from external banks and optimize repetitive administrative processes, such as the automated generation of job descriptions in PDF."
+        description: `• Requirements gathering, analysis, deadline estimation and task division for projects\n• Backend and frontend development using Django and Django Rest Framework\n• Development of hiring request registration platform\n• Integration of Metabase with internal systems for management metrics\n• Automation of data extraction from external banks\n• Optimization of administrative processes including automated PDF job description generation`
     },
     {
         type: "education",
@@ -140,17 +140,10 @@ const journey: JourneyItem[] = [
     },
     {
         type: "skill",
-        name: "Github",
-        icon: <FaGithub />,
-        duration: "Learned in 2023",
-        description: "Version control and collaboration. Metodology: Gitflow."
-    },
-    {
-        type: "skill",
         name: "Docker",
         icon: <FaDocker />,
         duration: "Learned in 2023",
-        description: "Bachelor's degree in Information Systems."
+        description: "I use Docker to simplify development, ensure consistency across environments, and facilitate scalability and dependency management."
     },
 
 ];

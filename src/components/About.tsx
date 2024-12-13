@@ -67,8 +67,8 @@ export function About() {
                             </div>
                             {/* item 2*/}
                             <div className="max-w-max">
-                                <div className="uppercase font-bold text-primary ">Bor in</div>
-                                <p>Brasil</p>
+                                <div className="uppercase font-bold text-primary ">Born</div>
+                                <p>Brazil</p>
                             </div>
                             {/* item 3*/}
                             <div className="max-w-max">
