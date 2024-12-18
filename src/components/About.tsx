@@ -39,7 +39,7 @@ export function About() {
                                 </motion.div>
                                 <div className="absolute text-center text-white">
                                     <div className="text-5xl font-bold leading-none">
-                                        1+
+                                        2+
                                     </div>
                                     <div className="leading-none text-center ">
                                         Years of <br /> Experience
