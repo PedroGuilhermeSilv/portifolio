@@ -24,6 +24,12 @@ const data = [
         img: "/assets/work/api-hex.png",
         title: "API Game Rental",
     },
+    {
+        href: "https://casa-turbinas.vercel.app/",
+        category: "fullstack",
+        img: "/assets/work/cada-turbina.png",
+        title: "Casa Turbinas",
+    },
     
 
 ]
