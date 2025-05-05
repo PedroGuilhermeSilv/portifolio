@@ -39,7 +39,7 @@ export function About() {
                                 </motion.div>
                                 <div className="absolute text-center text-white">
                                     <div className="text-5xl font-bold leading-none">
-                                        2+
+                                        3+
                                     </div>
                                     <div className="leading-none text-center ">
                                         Years of <br /> Experience
@@ -56,7 +56,7 @@ export function About() {
                             <p className="text-lg"> Backend Developer </p>
                         </div>
                         <p className="max-w-[680px] mx-auto xl:mx-0 mb-2">
-                        Designing scalable systems in Python, focusing on effective modeling, clean architecture, and continuous delivery.
+                            Designing scalable systems in Python, focusing on effective modeling, clean architecture, and continuous delivery.
                         </p>
                         {/* Infor items*/}
                         <div className="flex flex-col lg:flex-row gap-8 xl:gap-12 max-w-max mx-auto xl:mx-0 items-center whitespace-nowrap">
